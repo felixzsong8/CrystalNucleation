@@ -2,3 +2,10 @@
 
 This repository is filled with code and information about several data structures and data analysis techniques used to research crystal nucleation and its properties. 
 This research was conducted at Harvard, all code is created by Felix Song, mentored by Will Wang. 
+
+In this Repository, we include:
+- Script that creates and simulaties crystal nucleation during liquid to solid state transition. Tracks particles dynamics, voronoi characteristics, and size.
+- Script that identifies the angles formed between every set of three particles and stored within a vector dataset, id to each particle.
+- Script that processes the bond angles and applies a threshold based on the angle set.
+- Script that identifies the surface area of each crystal through Voronoi Structure and can apply a threshold based on this surface area. 
+- Script that can iterate through all particles in simulation to identify what cluster they belong to. 
